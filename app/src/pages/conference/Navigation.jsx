@@ -4,6 +4,8 @@ import { useRouteMatch, Link } from "react-router-dom";
 export function Navigation() {
   const { url } = useRouteMatch();
 
+  throw Error("Oh no! Something she gone all wrong!");
+
   return (
     <section className="banner">
       <img src="images/banner3.png" alt="" />
